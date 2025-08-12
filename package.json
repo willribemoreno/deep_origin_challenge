@@ -1,0 +1,23 @@
+{
+  "name": "deep-origin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "cypress:open": "cypress open --e2e",
+    "test:api": "cypress run --e2e"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "cypress": "^14.5.4",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "dotenv": "^17.2.1"
+  }
+}
